@@ -1,0 +1,23 @@
+🚀 Job Portal Backend running in development mode on port 5000
+🌐 API Base: http://localhost:5000/api
+⚠️ Could not connect to MongoDB at mongodb://127.0.0.1:27017/job_portal_db: connect ECONNREFUSED 127.0.0.1:27017
+🔄 Attempting in-memory MongoDB fallback...
+Couldnt download "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.14.zip"! 
+Starting the MongoMemoryServer Instance failed, enable debug log for more information. Error:
+ DownloadError: Download failed for url "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.14.zip", Details:
+
+    at RedirectableRequest.<anonymous> (C:\Users\Divyam\FSD END TERM PROJECT\backend\node_modules\mongodb-memory-server-core\lib\util\MongoBinaryDownload.js:325:24)
+    at RedirectableRequest.emit (node:events:508:28)
+    at eventHandlers.<computed> (C:\Users\Divyam\FSD END TERM PROJECT\backend\node_modules\follow-redirects\index.js:56:24)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  url: 'https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.14.zip',
+  msg: ''
+}
+❌ MongoDB Connection Error: Download failed for url "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.14.zip", Details:
+
